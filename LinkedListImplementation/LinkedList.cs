@@ -146,7 +146,7 @@ namespace LinkedListImplementation
             previous.Next = current.Next;
             if(current.Next == null)
             {
-              Tail = previous;
+              Tail = previous; 
             }
             Count--;
           }
